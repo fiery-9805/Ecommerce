@@ -1,0 +1,17 @@
+
+@tag
+Feature: Purchase the order from Ecommerce Website
+  I want to use this template for my feature file
+
+
+
+  @tag2
+  Scenario Outline: Positive Test of Submitting the order
+    Given Logged in with the username <name> and password <password>
+    When I check for the <value> in step
+    Then I verify the <status> in step
+
+    Examples: 
+      | name             | password      |
+      | rtup13@gmail.com |     ritu@123P |
+   

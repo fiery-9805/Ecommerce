@@ -1,0 +1,26 @@
+package newpackage;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class SignupPage {
+
+	public static void main(String[] args) {
+
+		WebDriver driver = new ChromeDriver();
+		driver.get("https://brotallion.com/");
+		driver.findElement(By.cssSelector(".icon.icon-user")).click();
+		driver.findElement(By.id("icon-user")).click();
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

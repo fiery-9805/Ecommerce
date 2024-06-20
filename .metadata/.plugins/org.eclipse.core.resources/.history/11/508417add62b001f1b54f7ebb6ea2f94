@@ -1,0 +1,50 @@
+package rahulshettyacademy.stepDefinitions;
+
+import java.io.IOException;
+import java.util.List;
+
+import org.openqa.selenium.WebElement;
+
+import io.cucumber.java.en.Given;
+import io.cucumber.java.en.When;
+import rahulshettyacademy.TestComponents.BaseTest;
+import rahulshettyacademy.pageobject.ProductCatalogue;
+import rahulshettyacademy.pageobject.landingPage;
+
+public class StepDefinitionImp extends BaseTest {
+	public landingPage landingPa;
+	public ProductCatalogue productCata;
+	
+	
+	
+	@Given("I landed on Ecommerce Page")
+    public void I_landed_on_Ecommerce_Page() throws IOException 
+	{
+		landingPa= launchApplication();
+	}
+
+	
+	@Given("^Logged in with the username (.+) and password (.+)$")
+	public void logged_in_username_and_password(String username , String password)
+	{
+		productCata = landingpa.loginApplication(username ,password);
+	}
+	
+	 @When ("I add the product (.+) from the Cart$")
+	 public void i_add_product_to_cart(String productName)
+	 {
+		 List<WebElement>products =productCata.getProductList();
+			
+			productCata.addProductToCart(productName);
+	 }
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}
