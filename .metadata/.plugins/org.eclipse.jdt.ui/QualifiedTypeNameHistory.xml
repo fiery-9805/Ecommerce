@@ -1,22 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="java.util.function.Function"/>
-    <fullyQualifiedTypeName name="com.google.common.base.Strings"/>
-    <fullyQualifiedTypeName name="org.testng.util.Strings"/>
-    <fullyQualifiedTypeName name="com.beust.jcommander.Strings"/>
-    <fullyQualifiedTypeName name="org.openqa.selenium.Keys"/>
-    <fullyQualifiedTypeName name="org.openqa.selenium.JavascriptExecutor"/>
-    <fullyQualifiedTypeName name="org.openqa.selenium.chrome.ChromeOptions"/>
-    <fullyQualifiedTypeName name="java.lang.reflect.Proxy"/>
-    <fullyQualifiedTypeName name="java.net.InetSocketAddress"/>
-    <fullyQualifiedTypeName name="com.google.common.graph.ElementOrder.Type"/>
-    <fullyQualifiedTypeName name="io.opentelemetry.sdk.logs.data.Body.Type"/>
-    <fullyQualifiedTypeName name="java.awt.Window.Type"/>
-    <fullyQualifiedTypeName name="java.util.Arrays"/>
-    <fullyQualifiedTypeName name="org.openqa.selenium.Proxy"/>
-    <fullyQualifiedTypeName name="java.net.URLConnection"/>
-    <fullyQualifiedTypeName name="java.net.HttpURLConnection"/>
-    <fullyQualifiedTypeName name="java.net.URL"/>
     <fullyQualifiedTypeName name="org.testng.asserts.SoftAssert"/>
     <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="java.util.stream.Stream"/>
@@ -36,9 +19,6 @@
     <fullyQualifiedTypeName name="org.openqa.selenium.interactions.Actions"/>
     <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="rahulshettyacademy.AbstractComponents.AbstractComponent"/>
-    <fullyQualifiedTypeName name="java.time.Duration"/>
-    <fullyQualifiedTypeName name="org.openqa.selenium.support.ui.ExpectedConditions"/>
-    <fullyQualifiedTypeName name="org.openqa.selenium.By"/>
     <fullyQualifiedTypeName name="org.openqa.selenium.WebElement"/>
     <fullyQualifiedTypeName name="java.util.Properties"/>
     <fullyQualifiedTypeName name="java.io.FileInputStream"/>
@@ -46,7 +26,6 @@
     <fullyQualifiedTypeName name="java.io.IOException"/>
     <fullyQualifiedTypeName name="org.testng.annotations.BeforeMethod"/>
     <fullyQualifiedTypeName name="org.testng.annotations.AfterMethod"/>
-    <fullyQualifiedTypeName name="org.testng.Assert"/>
     <fullyQualifiedTypeName name="org.testng.annotations.Test"/>
     <fullyQualifiedTypeName name="org.testng.annotations.BeforeTest"/>
     <fullyQualifiedTypeName name="com.aventstack.extentreports.reporter.ExtentSparkReporter"/>
@@ -60,4 +39,25 @@
     <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="java.io.File"/>
     <fullyQualifiedTypeName name="org.apache.commons.io.FileUtils"/>
+    <fullyQualifiedTypeName name="org.testng.Assert"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.devtools.v126.emulation.Emulation"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.devtools.v124.network.model.Response"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.devtools.v126.fetch.Fetch"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.devtools.v125.fetch.Fetch"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.devtools.v126.network.model.ErrorReason"/>
+    <fullyQualifiedTypeName name="java.util.Optional"/>
+    <fullyQualifiedTypeName name="com.google.common.collect.ImmutableList"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.devtools.v85.network.Network"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.devtools.v126.network.model.ConnectionType"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.devtools.v126.network.Network"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.UsernameAndPassword"/>
+    <fullyQualifiedTypeName name="java.sql.DriverManager"/>
+    <fullyQualifiedTypeName name="java.lang.Runtime"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.support.ui.ExpectedConditions"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.chrome.ChromeDriver"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.WebDriver"/>
+    <fullyQualifiedTypeName name="java.time.Duration"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.Keys"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.By"/>
 </qualifiedTypeNameHistroy>

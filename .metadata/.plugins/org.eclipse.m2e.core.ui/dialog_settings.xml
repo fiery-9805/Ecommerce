@@ -2,6 +2,8 @@
 <section name="Workbench">
 	<section name="wizardPage">
 		<list key="groupId">
+			<item value="rahulshettyacademy"/>
+			<item value="rituacademy"/>
 			<item value="streams"/>
 			<item value="StreamsTutorial"/>
 			<item value="test"/>
@@ -13,6 +15,8 @@
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="SeleniumlatestFeature"/>
+			<item value="selenium-java-assignment"/>
 			<item value="StreamsTutorial"/>
 			<item value="test"/>
 			<item value="selenium_java"/>
@@ -52,13 +56,10 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
-			<item value="rahulshettyacademy.ExtendReports"/>
 		</list>
 		<list key="groupId">
-			<item value="rahulshettyacademy"/>
 		</list>
 		<list key="artifactId">
-			<item value="ExtendReports"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -74,10 +75,12 @@
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
+			<item value="Framework"/>
 		</list>
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="ExcelDriven"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
