@@ -1,0 +1,10 @@
+# Ignore system files and directories
+NTUSER.DAT
+*.regtrans-ms
+OneDrive/
+Saved Games/
+.config/
+.cache/
+.vscode/
+AppData/
+Downloads/

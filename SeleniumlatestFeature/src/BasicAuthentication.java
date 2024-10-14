@@ -8,15 +8,22 @@ public class BasicAuthentication {
 
 	public static void main(String[] args) {
 		ChromeDriver driver = new ChromeDriver();
+//		
+//		//predicate - helps to create one filter condition for the data 
+//		
+//	     Predicate<URI> uriPredicate =  uri -> uri.getHost().contains("httpbin.org");
+//	     
+//	     ((HasAuthentication)driver).register(uriPredicate,UsernameAndPassword.of("foo", "bar"));
+//		
+//		driver.get("http://httpbin.org/basic-auth/foo/bar");
+//		
 		
-		//predicate - helps to create one filter condition for the data 
+
+		Predicate<URI> uripredicate = uri->uri.getHost().contains("the-internet.herokuapp.com");
 		
-	     Predicate<URI> uriPredicate =  uri -> uri.getHost().contains("httpbin.org");
-	     
-	     ((HasAuthentication)driver).register(uriPredicate,UsernameAndPassword.of("foo", "bar"));
+		((HasAuthentication)driver).register(uripredicate, UsernameAndPassword.of("admin", "admin"));
 		
-		driver.get("http://httpbin.org/basic-auth/foo/bar");
-		
+		driver.get("https://the-internet.herokuapp.com/basic_auth");
 		
 		
 		

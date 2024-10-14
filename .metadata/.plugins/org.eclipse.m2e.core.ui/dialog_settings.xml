@@ -2,6 +2,8 @@
 <section name="Workbench">
 	<section name="wizardPage">
 		<list key="groupId">
+			<item value="Selenium"/>
+			<item value="DemoQAPractice"/>
 			<item value="rahulshettyacademy"/>
 			<item value="rituacademy"/>
 			<item value="streams"/>
@@ -15,6 +17,8 @@
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="PracticeProject"/>
+			<item value="SeleniumDemoQAPractice"/>
 			<item value="SeleniumlatestFeature"/>
 			<item value="selenium-java-assignment"/>
 			<item value="StreamsTutorial"/>

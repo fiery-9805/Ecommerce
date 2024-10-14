@@ -20,6 +20,15 @@ public class alerts {
 		System.out.println(driver.switchTo().alert().getText());
 		driver.switchTo().alert().dismiss();
 		
+		//alerts popup practice
+		driver.get("https://the-internet.herokuapp.com/javascript_alerts");
+		driver.findElement(By.xpath("//button[contains(text(),'Click for JS Alert')]")).click();
+		driver.switchTo().alert().accept();
+		driver.findElement(By.id("result"));
+		
+		
+		
+		
 		
 		
 		

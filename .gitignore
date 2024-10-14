@@ -1,1 +1,37 @@
 /.metadata/
+/.cache/
+       .cache/
+        .config/
+        .eclipse/
+        .git-for-windows-updater
+        .gitconfig
+        .gradle/
+        .jenkins/
+        .lemminx/
+        .lesshst
+        .m2/
+        .p2/
+        .vscode/
+        AppData/
+        Atlassian/
+        Contacts/
+        Downloads/
+        Favorites/
+        IdeaProjects/
+        Links/
+        Music/
+        NTUSER.DAT
+        NTUSER.DAT{4f0f7088-bf10-11ed-a956-1068383a8b7b}.TM.blf
+        NTUSER.DAT{4f0f7088-bf10-11ed-a956-1068383a8b7b}.TMContainer00000000000000000001.regtrans-ms
+        NTUSER.DAT{4f0f7088-bf10-11ed-a956-1068383a8b7b}.TMContainer00000000000000000002.regtrans-ms
+        OneDrive/
+        Saved Games/
+        Searches/
+        Tracing/
+        Videos/
+        grid/
+        newassignment/
+        ntuser.dat.LOG1
+        ntuser.dat.LOG2
+        ntuser.ini
+        screenshot.png
